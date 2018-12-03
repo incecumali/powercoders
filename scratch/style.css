@@ -11,7 +11,7 @@ p {
    margin-left: 1em;
    margin-right: 1em;
 }
-em{
+p em{
   font-style: normal;
   text-decoration: underline;
 }
