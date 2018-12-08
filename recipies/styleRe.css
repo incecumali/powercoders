@@ -1,0 +1,22 @@
+h2, h3 {font-family: 'Black And White Picture', sans-serif;}
+p {font-family: 'Old Standard TT', serif;}
+ul{font-family: 'Nanum Gothic Coding', monospace;}
+body {
+  background-color: rgb(153, 50, 84);
+}
+.tit{color:rgb(16, 43, 62);}
+.description, .details, .serving, .notes, .tim{margin-left: 15px;}
+div#ingredients{
+    background-color: darkorange;
+margin-left: 0px;
+       list-style-type: none;
+border-top-right-radius: 20px;
+
+
+}
+
+
+
+
+/* because of the ID #tip win and text color: black,
+ background color: light grren */
