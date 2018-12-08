@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <title> git </title>
-    <meta charset="utf-8">
-    <title>git</title>
-
-  </head>
-  <body>
-    <div>
-    <h1> Documentation of GIT- 30.11.2018</h1>
-    <h3> Git Commands </h3>
-    <p> Git use three different space to coordinate files. Workspace, Index and Repository</p>
-    <ul>
-        <li> <em> Initialize Git :</em> to initialize git press windows</li>
-        <li>button and then write <em>cmd</em> to open terminal after opening terminal,</li>
-        <li>  go to the directory that you want to initialize and  write <em>git init  </em> </li>
-        <li><em>Check Status :</em> to check status after reaching current directory write   <em>git status </em> you</li>
-        <li>see list of trecked and untracked files. color of tracked file most probably will be <em>green</em></li>
-        <li> and number of untracked files will be probably <em>red </em> </li>
-        <li><em>TrackFiles : </em> to track file write <em> git add filename</em>Now our files are in Index space.</li>
-        <li>If you do some changes in current files you can see all that changes by typing  <em>git diff </em>  </li>
-        <li>after adding changes in index we can see differences between workspace and  repoitory by  <em>git diff -cached</em>  </li>
-        <li><em>Unstage Files :</em>by command <em>git rm –cached file1</em> we unstage files  </li>
-          <li><em>Git Push :</em>by command  <em>git push</em> we send files to repository  </li>
-        <li> <em>Git Log</em> wih <em> git log</em>  we can see all pushes on repository  </li>
-
-
-
-
-      </ul>
-      <h3>Connect to GitHub</h3>
-      <p> To send repository to github  we use  <em>git remote add origin https//...</em> </p>
-
-</div>
-
-  </body>
+   <head>
+      <title> git </title>
+      <meta charset="utf-8">
+      <title>git</title>
+  <link rel="stylesheet" href="gitStyle.css">
+   </head>
+   <body>
+      <div class ="main">
+         <h1> Documentation of GIT- 30.11.2018</h1>
+         <h3> Git Commands </h3>
+         <ul class="list">
+            <li>
+               <p> Git use three different space to coordinate files. Workspace, Index and Repository</p>
+            </li>
+            <li>
+               <p> <em class="tit"> Initialize Git :</em> to initialize git press windows button and then write <em>cmd</em> to open terminal after opening terminal. We have to tell Git where the "root"
+                  of the repository. use "git init &lt directory &gt".Do this just once
+               </p>
+            </li>
+            <li>
+               <p><em class="tit">Check Status :</em> to check status after reaching current directory write   <em>git status </em> you</p>
+               see list of trecked and untracked files. color of tracked file most probably will be <em>green</em>
+               and number of untracked files will be probably <em>red </em>
+            </li>
+            <li>
+               <p><em class="tit">TrackFiles : </em> to track file write <em> git add filename</em>Now our files are in Index space.</p>
+            </li>
+            <li>
+               <p><em class="tit">git diff :</em> If you do some changes in current files you can see all that changes by typing  <em>git diff </em>  </p>
+            </li>
+            <li>
+               <p><em class="tit"> Unstage Files  </em> to untrack files git rm --cached &ltfile name &gt. </p>
+            </li>
+            <li>
+               <p>after adding changes in index we can see differences between workspace and  repoitory by  <em>git diff -cached</em>  </p>
+            </li>
+            <li>
+               <p><em class="tit">Git Push :</em>by command  <em>git push</em> we send files to repository  </p>
+            </li>
+            <li>
+               <p> <em class="tit">Git Log</em> wih <em> git log</em>  we can see all pushes on repository  </p>
+            </li>
+            <li>
+               <p> <em class="tit">Rename file :</em> " git mv oldfileName newFileNam", after renaming file we change file name in working space on computer </p>
+               <p>to change the file name in repository gitHub we should git add and git commit and git push the renamed file. Then github replace old name with new name </p>
+            </li>
+            <li>
+               <p> <em class="tit">Delete file :</em> git rm fileName </p>
+            </li>
+            <li>
+               <p> <em class="tit">git add  "file name" </em> add all files in present directory  </p>
+            </li>
+         </ul>
+         <h3>Connect to GitHub</h3>
+         <p> To set a repository to github  we use  <em>git remote add origin https//...</em> </p>
+      </div>
+   </body>
 </html>
