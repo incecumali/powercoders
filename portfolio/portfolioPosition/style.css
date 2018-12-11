@@ -1,0 +1,50 @@
+h2, h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+p {
+  font-family: 'Old Standard TT', serif;
+}
+/*li{font-family: 'Nanum Gothic Coding', monospace;}*/
+
+li {
+  font-family: 'Old Standard TT', serif;
+}
+
+body{
+  position: relative;
+  background-color: rgba(195, 193, 164, 0.87)
+}
+.head{
+position: relative;;
+min-height: 200px;
+padding-left: 30px;
+
+width: 100%;
+border:1px solid red;
+margin-bottom: 2px;
+}
+.entries{
+    position: absolute;
+  width: 85em;
+  min-height: 2000px;
+  left:1px;
+  border: 1px solid blue;
+  padding-left: 30px;
+
+}
+
+.results{
+  position: absolute;
+  width:3em;
+  min-height: 2000px;
+  background-color: rgb(203, 130, 49);
+
+  border:1px solid black;
+  right:0px;
+}
+h2{
+  padding-left: 5em;
+}
+#img{padding-left: 15em;}
