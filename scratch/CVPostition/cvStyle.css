@@ -1,0 +1,25 @@
+body{
+  position: relative;
+
+}
+#left{
+  position: absolute;
+  left:1em;
+  width: 15em;
+  min-height: 50vh;
+
+}
+ #head{
+  border: 1px solid black;
+}
+#right{
+  position: absolute;
+  right: 1em;
+  top:24px;
+  width: 15em;
+  min-height: 50vh;
+  border:1px solid purple;
+
+
+
+}
