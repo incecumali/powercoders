@@ -29,6 +29,6 @@ function clearClass(event){
 
 //setClassTip();
 //setClassWarning();
-document.getElementById('war').onmousemove=setClassWarning;
-document.getElementById('ti').onmousemove=setClassTip;
-document.getElementById('nor').onmousemove=clearClass;
+document.getElementById('war').onclick=setClassWarning;
+document.getElementById('ti').onclick=setClassTip;
+document.getElementById('nor').onclick=clearClass;
