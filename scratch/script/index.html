@@ -5,19 +5,24 @@
     <title>change para class </title>
     <link rel="stylesheet" type ="text/css" href="style.css">
 
+
   </head>
+
   <body>
+
+
 
 
 <p id ="mypara"> this is the paragraph of thext that can change style use options below to change
 how it looks</p>
 
 <ul>
-  <li>make it warning</li>
-  <li>make it a tip</li>
-  <li>make it normal</li>
+  <li id="war" onclick="setClassWarning(event);"  >make it warning</li>
+  <li id="ti" onclick="setClassTip(event);">make it a tip</li>
+  <li id="nor" onclick="clearClass(event);">make it normal</li>
 </ul>
-<p class="warning"> this is an example warning </p>
+<p  class="warning" > this is an example warning </p>
 <p class="tip"> this is an example tip</p>
+<script rel="script" src="script.js"></script>
   </body>
 </html>
