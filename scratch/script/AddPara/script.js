@@ -27,16 +27,16 @@ function addEl(){
 function addLi(){
     console.log("li function is working ");
 
-    let Ul=document.createElement('ul');
-    let li1 =document.createElement('li');
-    let li2 =document.createElement('li');
-    let li3 =document.createElement('li');
-    let em1=document.createElement('em');
+    let Ul = document.createElement('ul');
+    let li1 = document.createElement('li');
+    let li2 = document.createElement('li');
+    let li3 = document.createElement('li');
+    let em1 = document.createElement('em');
 
-    let cont1=document.createTextNode('here is list item one');
-    let cont2=document.createTextNode('here is list item 2');
-    let cont3=document.createTextNode('here is the list item three');
-    let contem=document.createTextNode(('here is a emp text'));
+    let cont1 = document.createTextNode('here is list item one');
+    let cont2 = document.createTextNode('here is list item 2');
+    let cont3 = document.createTextNode('here is the list item three');
+    let contem = document.createTextNode(('here is a emp text'));
 
     li1.appendChild(cont1);
     li2.appendChild(cont2);
@@ -47,12 +47,6 @@ function addLi(){
     Ul.appendChild(li2);
     Ul.appendChild(li3);
 
-    let bod=document.getElementById('body');
+    let bod = document.getElementById('body');
     bod.appendChild(Ul);
-
-
-
-
-
-
 }
