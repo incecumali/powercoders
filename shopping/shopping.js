@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         let liItem= createNewListItem(inputBox.value);
         let ulEl=document.querySelector('ul');
         ulEl.appendChild(liItem);
+        inputBox.value='';
 
 
     });
@@ -22,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
             ulEl.appendChild(li);
             // or document.querySelector('ul').appendChild(li);
             console.log(event.key);
+            inputBox.value='';
 
         }
 
